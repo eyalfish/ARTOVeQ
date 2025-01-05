@@ -12,7 +12,7 @@ Our work tackles these challenges (i-ii) by designing a learned compression mech
 In this repository, you will find four different Python files, each corresponding to a dedicated simulation from our paper. The codes are intended to be self-contained, meaning you can simply download the files and run them without needing external dependencies. However, it is important to note that while each file may seem similar at first glance, there are some fundamental differences worth explaining.
 
 ## Available Files:
-'adaptivecb.py
+`adaptivecb.py`
 
 This file serves as the main simulation for this project, with all other simulations based on it.
 
