@@ -23,7 +23,7 @@ These flag variables determine the forward pass through the ARTOVeQ model:
   - If `use_VQVAE` is set to `true`, the model uses the `forward_with_vqvae` function.
 
 
-`successive_refinement`
+`successive_refinement.py`
 
 Termed Progressive ARTOVeQ, the script itself is very similar to `adaptivecb.py`, but does not contain any flag variables for different simulations and the construction of the codebook does not adhere to the nested structure as in ARTOVeQ.
 
@@ -31,4 +31,14 @@ For progressive ARTOVeQ, the codebook vectors each are extended by a single bit 
 
 
   \mathcal{Q}_{l+1} = \mathcal{Q}_{l} + \left\{\tilde{\boldsymbol{e}}^{(l)}_1, \tilde{\boldsymbol{e}}^{(l)}_2\right\}
+
+
+ `quantization_with_kmeans`
+
+`ResidualVQVAE.py`
+
+  ### How to run the code
+
+  To run the code simply run each `.py` file. Adjust the parameters in the command line. You will find default values under the Globals&Hyperparameter and additional parameters before the training and inference script
+
 
