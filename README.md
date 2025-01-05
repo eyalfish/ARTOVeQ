@@ -13,7 +13,7 @@ In this repository, you will find four different Python files, each correspondin
 
 ## Available Files:
 
-('''adaptivecb.py)
+'''adaptivecb.py
 
 This file serves as the main simulation for this project, with all other simulations based on it.
 
