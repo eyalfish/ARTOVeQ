@@ -28,7 +28,8 @@ These flag variables determine the forward pass through the ARTOVeQ model:
 Termed Progressive ARTOVeQ, the script itself is very similar to `adaptivecb.py`, but does not contain any flag variables for different simulations and the construction of the codebook does not adhere to the nested structure as in ARTOVeQ.
 
 For progressive ARTOVeQ, the codebook vectors each are extended by a single bit following a Minkowski sum. If \[\mathcal{Q}_l \] represents the codebook at bit-rate $l$ then the extended codebook is
-
+<span>
 \[
   \mathcal{Q}_{l+1} = \mathcal{Q}_{l} + \left\{\tilde{\boldsymbol{e}}^{(l)}_1, \tilde{\boldsymbol{e}}^{(l)}_2\right\}
 \]
+<span>
