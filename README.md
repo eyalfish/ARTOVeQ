@@ -21,3 +21,14 @@ Inside, you will find the entire Deep Learning pipeline, including data preparat
 These flag variables determine the forward pass through the ARTOVeQ model:
   - If all the flag variables are set to `false`, the model uses the standard `forward` function.
   - If `use_VQVAE` is set to `true`, the model uses the `forward_with_vqvae` function.
+
+
+`successive_refinement`
+
+Termed Progressive ARTOVeQ, the script itself is very similar to `adaptivecb.py`, but does not contain any flag variables for different simulations and the construction of the codebook does not adhere to the nested structure as in ARTOVeQ.
+
+For progressive ARTOVeQ, the codebook vectors each are extended by a single bit following a Minkowski sum. If $ \mathcal{Q}_l $ represents the codebook at bit-rate $l$ then the extended codebook is
+
+\begin{equation}
+  \mathcal{Q}_{l+1} = \mathcal{Q}_{l} + \left\{\tilde{\boldsymbol{e}}^{(l)}_1, \tilde{\boldsymbol{e}}^{(l)}_2\right\}
+\end{equation}
