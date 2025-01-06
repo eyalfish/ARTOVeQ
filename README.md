@@ -5,7 +5,7 @@ ARTOVeQ is designed to address the challenges of learned compression mechanisms 
 1. Once trained, the model's compression rate can not be altered
 2. Inference can only begin after all the compressed features arrive at the inferring device
 
-Our work tackles these challenges $`(i-ii)`$ by designing a learned compression mechanism that is independent of the network architecture and focuses on the quantization process itself.
+Our work tackles these challenges $`(1-2)`$ by designing a learned compression mechanism that is independent of the network architecture and focuses on the quantization process itself.
 
 
 ![](ARTOVeQ_ArchitectureV@.png)
