@@ -10,6 +10,7 @@ Our work tackles these challenges $`(1-2)`$ by designing a learned compression m
 
 ![](ARTOVeQ_ArchitectureV@.png)
 
+For more details, we refer you to our work [Remote Inference over Dynamic Links via Adaptive Rate Deep Task-Oriented Vector Quantization](https://arxiv.org/abs/2501.02521)
 # Executing the code
 
 In this repository, you will find four different Python files, each corresponding to a dedicated simulation from our paper. The codes are intended to be self-contained, meaning you can simply download the files and run them without needing external dependencies. However, it is important to note that while each file may seem similar at first glance, there are some fundamental differences.
